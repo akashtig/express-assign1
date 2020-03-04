@@ -6,10 +6,8 @@ const moment = require('moment');
 const app = express();
 
 app.set('view engine','ejs');
-console.log(moment().format('YYYY'));
 
 app.use(function(req, res, next) {
-  // res.status(404);
   res.locals.year=moment().format('YYYY');
 
   next();
