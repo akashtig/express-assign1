@@ -1,0 +1,166 @@
+/* Body Styles */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #4B2BB7;
+  height: 35vh;
+  padding: 4em;
+}
+
+.heading-wrapper {
+  width: 75vw;
+  margin: auto;
+}
+// Highlighted element in nav
+.highlighted{
+  color:#FA6797;
+}
+
+/* Nav Styles */
+
+nav {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  width: 75vw;
+  color: white;
+}
+
+ul li {
+  text-decoration: none;
+  display: inline;
+  padding: 2rem;
+}
+
+/* Heading Styles */
+
+h1 {
+  color: #FA6797;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+}
+
+h2 {
+  color: white;
+  font-size: 3rem;
+}
+
+main{
+  max-width:90ch;
+  width:60vw;
+  min-width:40ch;
+  margin:3rem auto;
+}
+
+article{
+  background-color:rgb(168, 89, 168);
+  height:20em;
+  width:100%;
+  border-radius: .5rem;
+  margin: 2rem 0;
+  }
+
+  h3{
+    margin: 8em 0 0 0;
+    }
+  
+h4 {
+  color: rgb(168, 89, 168);
+}
+
+/* Link Styling */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FA6797;
+}
+
+/* Footer */
+
+footer {
+  background-color: #4B2BB7;
+  height: 10vh;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%
+}
+
+.footer-wrapper {
+  width: 75vw;
+  margin: auto;
+  color: white;
+}
+.expensesfile{
+  main{
+  max-width:90ch;
+  width:60vw;
+min-width:40ch;
+}
+section{
+display: flex;
+margin:auto;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+h3,p{
+padding: 1em 5vw;
+}
+
+article{
+background-color: rgb(168, 89, 168);
+height:12em;
+width:12em;
+margin:.5em;
+}
+}
+
+.productsfile{
+
+  main{
+    width:50vw;
+    max-width: 80ch;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+    
+  }
+  .products{
+  display: flex;
+  flex-wrap: wrap;
+  
+  }
+  section{
+  margin:1rem 0;
+  } 
+  h3,p{
+  padding:0 10px;
+  text-align: left;
+  margin:0;
+  }
+  
+  article{
+  background-color: rgb(168, 89, 168);
+  height:12em;
+  width:12em;
+  margin:.5em;
+  }
+  section div p{
+    color:rgb(168, 89, 168);
+  }
+}
